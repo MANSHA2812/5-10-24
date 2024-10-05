@@ -1,0 +1,86 @@
+*{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h{min-height: 100vh;}
+
+.nav-container{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   
+}
+.nav-container nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+
+}
+
+.nav-container nav ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.nav-container nav ul li {
+    list-style: none;
+    
+
+}
+.nav-container nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.first-button {
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-button button{
+    padding: 12px 25px;
+    background-color:blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.first-sec-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.second-button button{
+    padding: 12px 25px;
+    color: white;
+    border: white solid 3px;
+    background-color: black;
+    
+}
+.third-card{
+    
+    height: 450px;
+}
+.third-card img{
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1px;
+}
